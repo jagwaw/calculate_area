@@ -14,6 +14,9 @@ app.controller("areaController", function ($scope, $http, $log,  toastr, $filter
   $scope.measurement_list=["centimeters","inches","meters"]
   $scope.shape="Circle"
   $scope.selected_shape="Circle"
+
+  $scope.my_regex = /^([1-9]|[1-5][0-9]|60(\.0{1,2})?$)(\.[0-9]{1,2})?$/
+
   $scope.checkShape= function(shape){
     $scope.selected_shape=shape
     $scope.calculated_area=''

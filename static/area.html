@@ -16,7 +16,7 @@
                     <div layout="row" layout-align="center">
                         <div flex=35>
                             <md-input-container class="two_fields">
-                                <input ng-model="area_params.radius" placeholder="Radius"> </input>
+                                <input ng-model="area_params.radius" placeholder="Radius" ng-pattern="my_regex"> </input>
                             </md-input-container>
                         </div>
                         <div flex=35>
@@ -38,7 +38,7 @@
                     <div layout="row"  layout-align="center">
                         <div flex=25>
                             <md-input-container class="input_container">
-                                <input style="text-align: center; "ng-model="area_params.base" placeholder="Base"> </input>
+                                <input class="input_field" ng-model="area_params.base" placeholder="Base" ng-pattern="my_regex"> </input>
                             </md-input-container>
                         </div>
                         <div flex=25>
@@ -50,7 +50,7 @@
                         </div>
                         <div flex=25>
                             <md-input-container class="input_container">
-                                <input  ng-model="area_params.height" placeholder="Height"> </input>
+                                <input class="input_field" ng-model="area_params.height" placeholder="Height" ng-pattern="my_regex"> </input>
                             </md-input-container>
                         </div>
                         <div flex=25>
@@ -72,7 +72,7 @@
                     <div layout="row"  layout-align="center">
                         <div flex=35>
                             <md-input-container class="two_fields">
-                                <input ng-model="area_params.side" placeholder="Side"> </input>
+                                <input class="input_field" ng-model="area_params.side" placeholder="Side"> </input>
                             </md-input-container>
                         </div>
                         <div flex=35>
@@ -94,8 +94,8 @@
                     </div>
                     <div layout="row" >
                         <div flex=25>
-                            <md-input-container class="input_container      ">
-                                <input ng-model="area_params.length" placeholder="Length"> </input>
+                            <md-input-container class="input_container">
+                                <input class="input_field" ng-model="area_params.length" placeholder="Length"> </input>
                             </md-input-container>
                         </div>
                         <div flex=25>                    
@@ -106,8 +106,8 @@
                             </md-input-container>
                         </div>
                         <div flex=25>
-                            <md-input-container class="input_container ">
-                                <input ng-model="area_params.width" placeholder="Width"> </input>
+                            <md-input-container class="input_container">
+                                <input class="input_field" ng-model="area_params.width" placeholder="Width"> </input>
                             </md-input-container>
                         </div>
                         <div flex=25>
