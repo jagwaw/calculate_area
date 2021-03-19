@@ -1,0 +1,67 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Bahnschrift, 'Trebuchet MS', sans-serif ;
+}
+
+.area{
+    background-color: white;  
+    padding-top: 2%;
+}
+
+.area_card{
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(152,184,240,1);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(152,184,240,1);
+    box-shadow: 0px 0px 10px 3px rgba(152,184,240,1);
+    margin-bottom: 0;
+}
+
+.area_header{
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+
+
+.input_container{
+    width: 50%;
+}
+
+.shape_field{
+    width: 100%;
+}
+.input_field{
+    text-align: center;
+}
+.area_card_content{
+    text-align: center;
+}
+
+.two_fields{
+    width: 30%;
+}
+
+.area_select_div{
+    margin: 0 auto;
+    width: 80%;
+}
+.calculate_button{
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    border: 2px solid #28d98b;
+    box-sizing: border-box;
+    width: 30%;
+    max-width: 320px;
+    background:#28d98b;
+    font-weight: bold;
+    margin-top: 5%;
+}
